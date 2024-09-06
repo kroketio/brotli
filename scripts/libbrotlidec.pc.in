@@ -7,6 +7,6 @@ Name: libbrotlidec
 URL: https://github.com/google/brotli
 Description: Brotli decoder library
 Version: @PACKAGE_VERSION@
-Libs: -L${libdir} -lbrotlidec
+Libs: -L${libdir} -lbrotlidec -lbrotlicommon
 Requires.private: libbrotlicommon >= 1.1.0
 Cflags: -I${includedir}
